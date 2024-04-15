@@ -1,0 +1,20 @@
+name: afrione-website
+project: afrione-web-project
+namespace: afrione-web
+values: |-
+  fullnameOverride: afrione-website
+  image: 
+    repository: afrioneltd/afrione-website:app-1
+  namespace: afrione-web
+  containerPort: 3000
+  managedidentity:
+      enabled: true
+  autoscaling:
+      enabled: true
+  ingress:
+    enabled: true
+  lProbe:
+      enabled: false
+  rProbe:
+      enabled: false
+
