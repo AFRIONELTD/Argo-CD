@@ -13,6 +13,7 @@ values: |-
       enabled: true
   ingress:
     enabled: true
+    host: argo.afrione.co
   lProbe:
       enabled: false
   rProbe:
