@@ -4,7 +4,7 @@ namespace: afrione-web
 values: |-
   fullnameOverride: afrione-website
   image: 
-    repository: afrioneltd/afrione-website:app-16
+    repository: afrioneltd/afrione-website:app-17
   namespace: afrione-web
   containerPort: 3000
   managedidentity:
