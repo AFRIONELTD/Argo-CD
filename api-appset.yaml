@@ -17,7 +17,7 @@ spec:
     spec:
       project: '{{project}}'
       source:
-        chart: afrione-website
+        chart: afrione-api
         repoURL: https://afrioneltd.github.io/helm/
         targetRevision: 0.1.0
         helm:
