@@ -1,8 +1,8 @@
-name: api-gateway-service
+name: afrione-api-gateway
 project: afrione-api-project
 namespace: afrione-api
 values: |-
-  fullnameOverride: afrione-api
+  fullnameOverride: afrione-api-gateway
   image: 
     repository: afrioneltd/api-gateway-service:app-1
   namespace: afrione-api
