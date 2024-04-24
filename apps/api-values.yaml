@@ -1,0 +1,20 @@
+name: api-gateway-service
+project: afrione-api-project
+namespace: afrione-api
+values: |-
+  fullnameOverride: afrione-api
+  image: 
+    repository: afrioneltd/api-gateway-service:app-1
+  namespace: afrione-api
+  containerPort: 3001
+  managedidentity:
+      enabled: true
+  autoscaling:
+      enabled: true
+  ingress:
+    enabled: true
+    host: 
+  lProbe:
+      enabled: false
+  rProbe:
+      enabled: false
